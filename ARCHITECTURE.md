@@ -12,7 +12,7 @@ accessible text. The small
 standard-library builder validates key parity and escapes every substituted
 value, then produces both pages in all three languages. It checks translation
 coverage across both templates while rejecting missing or unused text.
-Relative links support both a local server and the `/muweave/` GitHub Pages
+Relative links support both a local server and the `/muweave-website/` GitHub Pages
 prefix.
 
 The output overview uses a source card followed by a semantic list of three

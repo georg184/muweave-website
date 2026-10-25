@@ -188,13 +188,13 @@ bytes, not that separate LuaLaTeX runs necessarily have identical metadata.
 
 ## GitHub Pages
 
-This directory has its own repository, `georg184/muweave`, with default branch
+This directory has its own repository, `georg184/muweave-website`, with default branch
 `main`. Pages uses GitHub Actions. `.github/workflows/deploy-pages.yml` checks
 the build and deploys only `build/site/`; it uses the checked-in example and
 documentation snapshots and needs no Python package credentials or AI keys.
 
 After an authorized push, follow the workflow to its terminal state. Compare
-the public `/muweave/version.json` with `build/site/version.json`, then verify
+the public `/muweave-website/version.json` with `build/site/version.json`, then verify
 all three language entries, an example and the developer portal. A changed
 runtime or content input automatically gets a different cache token.
 

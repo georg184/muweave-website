@@ -28,9 +28,15 @@ unveränderten Drittanbieter-Lizenzen. Der vollständige GPL-Text ist lokal
 verfügbar. Name und Logo werden mit dem Rechtevorbehalt von Georg G ausgewiesen;
 die Logo-Grafik gehört nicht zur GPL-Freigabe der Software.
 
-- Website: <https://georg184.github.io/muweave/>
-- Eigenständiges Repository: <https://github.com/georg184/muweave>
+- Website: <https://georg184.github.io/muweave-website/>
+- Eigenständiges Repository: <https://github.com/georg184/muweave-website>
 - Lokaler Projektort: `software/HTML/ggprojects/muweave/`
+
+Die bisherige Adresse <https://georg184.github.io/muweave/> bleibt als kleine
+Einstiegsseite mit Links zu den drei Sprachfassungen erhalten. Sie gehört zum
+separaten Repository `georg184/muweave`, lokal unter
+`software/HTML/ggprojects/muweave-entry/`. Beide Repositories veröffentlichen
+ausschließlich Website-Inhalte; die Python-Pakete bleiben im lokalen Workspace.
 
 ## Beispiel und Produktstand
 

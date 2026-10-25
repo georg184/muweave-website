@@ -17,7 +17,7 @@ from html.parser import HTMLParser
 from pathlib import Path
 
 ROOT: Path = Path(__file__).resolve().parents[1]
-PUBLIC_BASE: str = "https://georg184.github.io/muweave"
+PUBLIC_BASE: str = "https://georg184.github.io/muweave-website"
 LANGUAGES: dict[str, tuple[str, str]] = {
     "de": ("de-CH", "de_CH"),
     "en": ("en", "en_GB"),
